@@ -3,7 +3,7 @@ var SLIDES = {};
 var choice = $('#SLIDECHOICE');
 
 const setMin = 3;
-const setMax = 6;
+const setMax = 11;
 
 var section = $('#bp_result');
 var conclusion = $('#p_result');
@@ -170,6 +170,13 @@ function composeSlides(selected) {
         else
             $('.SQUAREGRID_pres scroll').append(linel(selectedSlides[slide]["name"]));
 
+        if (nb == (alterne - 1) || nb == (alterne*2 - 1))
+            $('.SQUAREGRID_pres scroll').append(`<!--
+
+-->`);
+        else
+            $('.SQUAREGRID_pres scroll').append(`<!--
+-->`);
         // append the text, which is found in JSON files
         $('.main_pres').append(selectedSlides[slide]["text"]);
 
@@ -208,7 +215,8 @@ function finalApprove() {
     else t = 'éphémère';
     conclusion.html(`Et voilà ! Votre fiche comporte <vh>` + choice.find('input:checked').length
                     + ` onglets</vh> et vous avez choisi un <vh>personnage ` + t + `</vh>.<br>`
-                    + ` Vous n'avez plus qu'à copier/coller le code sur le forum.`);
+                    + ` Vous n'avez plus qu'à copier/coller le code sur le forum.<br><br>`
+                    + `N'oubliez pas que vous pouvez rajouter une partie histoire en 2e message sur votre présentation.`);
 
     // fills textarea with it
     textarea.text(shown.html());

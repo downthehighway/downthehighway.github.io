@@ -1,5 +1,32 @@
 SLIDE7 = {
     "index" : 7,
     "name" : "popularité",
-    "text" : `<div>7</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE POPULARITE - - - - -
+
+--><section class="POPULARITE_pres simple nopadding"><div class="simple hi4 background left-align">stars shining bright</div><div class="simple nopadding flex fixed"><!--
+
+!! IMAGE ci-dessous
+--><img src="https://i.pinimg.com/564x/24/d4/08/24d40820862897f067f9c0362767ad62.jpg"/><div class="simple light"><scroll><!--
+
+
+--><vh>en ville depuis —</vh> la réponse ici.
+
+<vh>réputation —</vh> la réponse ici.
+
+<vh>attaches —</vh> la réponse ici. des amis, collègues, familles, ennemis qui le retiennent dans la ville ? où est-iel livré·e à ellui-même ?</scroll></div><div class="simple light"><scroll><!--
+
+
+--><ch>au futur —</ch> la réponse ici. des plans et ambitions que votre personnage compte réaliser.
+
+<ch>ta maison —</ch> la réponse ici. l'endroit où iel vit, son ressenti par rapport à ça, au quartier.</scroll></div><!--
+
+
+!! IMAGE ci-dessous
+--><img src="https://i.pinimg.com/564x/8e/22/f1/8e22f11d8c9d47c55e80abaec62c96b5.jpg"/></div></section>`
 }

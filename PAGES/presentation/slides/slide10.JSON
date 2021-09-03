@@ -1,5 +1,19 @@
 SLIDE10 = {
     "index" : 10,
     "name" : "souvenirs",
-    "text" : `<div>10</div>`
+    "text" :
+
+`<!--
+
+
+
+
+- - - - - PARTIE MOODBOARD - - - - -
+
+--><section class="SOUVENIRS_pres"><linec><dtag><cv>you got it in you</cv></dtag><lgn class="da1"></lgn><lgn class="da1"></lgn></linec><div class="simple nopadding flexrow fixed"><!--
+
+!! IMAGE ci-dessous
+--><img src="https://i.pinimg.com/564x/24/d4/08/24d40820862897f067f9c0362767ad62.jpg" class="no-extend"/><div class="simple light"><scroll><!--
+
+-->souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp. souvenir particulièrement frappant ici. l'écrire un peu ici, comme un un rp.</scroll></div></div></section>`
 }

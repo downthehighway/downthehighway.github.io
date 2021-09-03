@@ -1,5 +1,15 @@
 SLIDE8 = {
     "index" : 8,
     "name" : "faits divers",
-    "text" : `<div>8</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE FAITS DIVERS - - - - -
+
+--><section class="DIVERS_pres"><liner><btag><rou>SOMEWHERE WE USED TO KNOW</rou></btag><lgn class="da1"></lgn></liner><div class="simple light"><!--
+
+--><ch>fait divers</ch> écrire ici. <vh>fait divers</vh> écrire ici. <ch>fait divers</ch> écrire ici. <vh>fait divers</vh> écrire ici. <ch>fait divers</ch> écrire ici. <vh>fait divers</vh> écrire ici. <ch>fait divers</ch> écrire ici. <vh>fait divers</vh> écrire ici. <ch>fait divers</ch> écrire ici. <vh>fait divers</vh> écrire ici. <ch>fait divers</ch> écrire ici. <vh>fait divers</vh> écrire ici. </div></section>`
 }

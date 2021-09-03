@@ -1,5 +1,15 @@
 SLIDE4 = {
     "index" : 4,
     "name" : "portrait chinois",
-    "text" : `<div>4</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE PORTRAIT CHINOIS - - - - -
+
+--><section class="PORTRAIT_CHINOIS_pres simple nopadding"><liner><btag class="li3 background"><rou class="da1">the idea of you</rou></btag><lgn class="da1"></lgn></liner><div class="simple light"><!--
+
+--><ro>un moment dans la journée ?</ro> écrire ici. <ro>un animal ?</ro> écrire ici. <ro>une plante ?</ro> écrire ici. <ro>un endroit ?</ro> écrire ici. <ro>une chanson ?</ro> écrire ici. <ro>une émotion ?</ro> écrire ici. <ro>une oeuvre d'art ?</ro> écrire ici. <ro>un personnage de fiction  ?</ro> écrire ici. <ro>une odeur ?</ro> écrire ici. <ro>une mauvaise habitude ?</ro> écrire ici. <ro>une célébrité ?</ro> écrire ici. <ro>un super pouvoir ?</ro> écrire ici. <ro>une créature légendaire ?</ro> écrire ici.</div></section>`
 }

@@ -1,5 +1,35 @@
 SLIDE5 = {
     "index" : 5,
     "name" : "interview",
-    "text" : `<div>5</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE INTERVIEW - - - - -
+
+--><section class="INTERVIEW_pres simple nopadding"><linec><dtag>interview for the time magazine</dtag><lgn class="da1"></lgn><lgn class="da1"></lgn></linec><div class="simple nopadding flex fixed"><div class="simple light left-align"><scroll><!--
+
+--><mg>un mot pour te définir</mg> réponse courte.
+
+<mg>ton profil mbti</mg> réponse courte.
+
+<mg>ton signe astrologique</mg> réponse courte.
+
+<mg>remède anti négativité</mg> la réponse ici. des choses qui font ton personnage se sentir bien.</scroll></div><!--
+
+
+--><div class="simple light left-align"><scroll><mg>ta plus grande fierté</mg> réponse courte.
+
+<mg>ta plus grande peur</mg> réponse courte.
+
+<mg>ton plus grand amour</mg> réponse courte.
+
+<mg>ta plus grande honte</mg> réponse courte.
+
+<mg>quelques uns de tes vices</mg> réponse courte.</scroll></div></div><!--
+
+
+--><div class="simple light"><mg>faire le point sur ta vie. regarder en arrière, les rêves de gosse, les ambitions d'ado, le chemin parcouru jusque là. regarder en avant, les choses encore à accomplir, les portes ouvertes et closes. et puis regarder au présent, ce que tu fais de ton existence, les personnes qui t'entoure. —</mg> écrire ici (décrire ce brainstorm, ou ce que votre personnage en pense, comment iel se sent vis-à-vis de ça.) écrire autant que voulu. Aenean sollicitudin ut tellus sed aliquet. Curabitur vitae risus lobortis, iaculis dolor in, vulputate nunc. Integer congue a dui vel mollis. Ut in aliquet magna. Nam vel sapien sed nulla scelerisque porttitor. Phasellus pretium aliquet eros, non ornare velit pulvinar a. Nunc a venenatis quam. Aliquam a nisi a nulla luctus tempor. Praesent sit amet eleifend purus.Proin nec faucibus felis. Nullam vel mattis sem. Quisque aliquam vel est at gravida. Cras at tincidunt justo, in sollicitudin nunc. Sed dapibus odio vitae libero luctus semper.</div></section>`
 }

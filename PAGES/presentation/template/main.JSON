@@ -1,35 +1,46 @@
-const MAIN_TEMPLATE = `<h1>@prénom nom  <tag class="float right">pronoms</tag></h1><!--
+const MAIN_TEMPLATE =
+
+`<h1>@prénom nom <tag class="float right">pronoms</tag></h1><!--
 !! INFO : ne mettez que les pronoms utilisés par votre personnage, de façon courte, vous pourrez développer ci-dessous
+!! NOTE : des commentaires sont placés un peu partout pour vous repérer, n'hésitez pas à contacter un.e admin si nécessaire !
 
 
---><section class="SQUAREGRID_pres simple nopadding flexrow heightsquaregrid"><!--
 
---><div class="simple light big-line"><scroll class="toggle_inside" toggling=".main_pres" children="mg"><!--
+
+--><section class="SQUAREGRID_pres simple nopadding flexrow heightsquaregrid"><div class="simple light big-line"><scroll class="toggle_inside" toggling=".main_pres" children="mg"><!--
+
+!! NOTE : libre à vous de changer l'intitulé des onglets juste ci-dessous, ou leur alignement
+(début et fin de chaque ligne : linel (à gauche) // liner (à droite)
 
 --><linel><mg class="dotted">carte d'identité</mg><lgn class="da1"></lgn></linel><!--
---></scroll></div><!--
 
+--></scroll></div><div class="squaregrid no-extend"><!--
 
---><div class="squaregrid no-extend"><!--
+!! 4 IMAGES D'INTRO CI-DESSOUS
 --><img src="https://i.pinimg.com/564x/f2/bc/3e/f2bc3e24ce6e79047d03b46771951339.jpg"/><!--
 --><img src="https://i.pinimg.com/564x/55/10/4e/55104e54ff4825219194d9a901345792.jpg"/><!--
 --><img src="https://i.pinimg.com/564x/dd/7a/c6/dd7ac672f0838afaf4a9e7b9d4206b15.jpg"/><!--
---><img src="https://i.pinimg.com/564x/e8/e4/ad/e8e4ad2b293d2981e4de810d45c34fe3.jpg"/></div></section><!--
+--><img src="https://i.pinimg.com/564x/e8/e4/ad/e8e4ad2b293d2981e4de810d45c34fe3.jpg"/></div></section><div class="main_pres simple nopadding"><!--
 
 
 
 
---><div class="main_pres simple nopadding"><!--
+- - - - - PARTIE INTRODUCTION - - - - -
 
---><section class="INTRODUCTION_pres simple nopadding"><div class=" flexrow fixed" style="--height: 250px;"><div class="simple small light avatar-inside"><img src="https://images2.imgbox.com/e8/86/EYPXjaJI_o.png"/></div><!--
+--><section class="INTRODUCTION_pres simple nopadding"><div class=" flexrow fixed"><div class="simple small light avatar-inside"><!--
+
+!! AVATAR ci-dessous
+--><img src="https://images2.imgbox.com/e8/86/EYPXjaJI_o.png"/></div><div class="simple nopadding flexcolumn">
+<liner class="no-extend"><btag class="hi1 background"><!--
+
+-->ft. avatar</btag><lgn class="hi1"></lgn></liner><div class="simple light"><scroll><!--
+
+!! INFOS GENERALES ci-dessous
+--><ch>identité</ch> écrire ici. <vh>âge, naissance</vh> écrire ici. <ch>nationalité, origines</ch> écrire ici. <vh>statut amoureux, orientation</vh> écrire ici. <ch>identité de genre, pronoms</ch> écrire ici. <vh>occupation [<u>$$</u>$$$]</vh> écrire ici. souligner le montant correspondant à la richesse de votre personnage. </scroll></div><mg class="display-block simple light right-align no-extend"><!--
 
 
---><div class="simple nopadding flexcolumn">
-<liner class="no-extend"><btag class="hi1 background">ft. avatar</btag><lgn class="hi1"></lgn></liner><!--
-
---><div class="simple light"><scroll><ch>identité</ch> écrire ici. <vh>âge, naissance</vh> écrire ici. <ch>nationalité, origines</ch> écrire ici. <vh>statut amoureux, orientation</vh> écrire ici. <ch>identité de genre, pronoms</ch> écrire ici. <vh>occupation [<u>$$</u>$$$]</vh> écrire ici. souligner le montant correspondant à la richesse de votre personnage. </scroll></div><!--
-
---><mg class="display-block simple light right-align no-extend">âge — métier — statut amoureux — <a href="#top" target="_blank">fiche</a> — <a href="#top" target="_blank">liens</a></mg></div></div></section></div>`;
+!! RÉCAP BREF des infos ci-dessous
+-->âge — métier — statut amoureux — <a href="#top" target="_blank">fiche</a> — <a href="#top" target="_blank">liens</a></mg></div></div></section></div>`;
 
 
 
@@ -38,7 +49,7 @@ const MAIN_TEMPLATE = `<h1>@prénom nom  <tag class="float right">pronoms</tag>
 
 const normal_TEMPLATE = `<!--
 
-
+!! PARTIE IRL ci-dessous
 --><div class="simple light"><ro>prénom/pseudo</ro> écrire ici. <ro>crédits</ro> écrire ici. <ro>personnage</ro> pl, inventé ? écrire ici. <ro>tout sur l'artiste</ro> tu nous racontes ce que tu veux sur toi, en un mot, quelques lignes, un paragraphe ou une page entière, c'est toi l'artiste. </div>`;
 
 
@@ -48,9 +59,10 @@ const normal_TEMPLATE = `<!--
 
 const ephemere_TEMPLATE = `<!--
 
-
+!! PARTIE IRL ci-dessous
 --><div class="simple light"><ro>prénom/pseudo</ro> écrire ici. <ro>crédits</ro> écrire ici. <ro>personnage</ro> pl, inventé ? écrire ici. au cas échéant, bien vérifier que l'auteur·e du pl est ok avec un éphémère. <ro>tout sur l'artiste</ro> tu nous racontes ce que tu veux sur toi, en un mot, quelques lignes, un paragraphe ou une page entière, c'est toi l'artiste. </div><!--
 
+!! PARTIE EPHEMERE ci-dessous
 --><div class="simple light"><ro>personnage éphémère</ro> écrire la date estimée de départ.
 <ro>pourquoi un éphémère ?</ro> expliquer ici.
 <ro>premier personnage sur le forum ? dc ?</ro> écrire ici.

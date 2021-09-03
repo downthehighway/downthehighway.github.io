@@ -1,5 +1,47 @@
 SLIDE11 = {
     "index" : 11,
     "name" : "spotify",
-    "text" : `<div>11</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE SPOTIFY - - - - -
+
+--><section class="SPOTIFY_pres"><div class="bp_spotify simple light flexrow"><div class="left_spotify simple nopadding left-align no-extend"><!--
+
+!! IMAGE ci-dessous
+--><img src="https://images2.imgbox.com/06/9f/UfhTcpBi_o.png" class="img_spotify"/><!--
+
+!! INFOS générales ci-dessous
+--><cv class="middle-font">playlist name</cv>
+<span class="small-font">by <b>your name</b>
+<span class="uppercase mo1">xx titles</span></span>
+
+<dtag class="link_spotify uppercase small-font hi1 background">listen on spotify</dtag></div><div class="list_spotify simple nopadding"><scroll><ol class="mo1"><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+--><li class="element_spotify"><div class="flexrow"><div><cv>song name</cv><br/><span class="small-font">by author</span></div><span class="no-extend small-font">3 : 45</span></div></li><!--
+
+
+FIN PLAYLIST
+--></ol></scroll></div></div></section>`
 }

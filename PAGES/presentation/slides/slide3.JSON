@@ -1,5 +1,48 @@
 SLIDE3 = {
     "index" : 3,
     "name" : "fancy",
-    "text" : `<div>3</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE FANCY - - - - -
+- - - - - n'hésitez pas à modifier le code ci-dessous, en enlevant/ajoutant/modifiant les balises
+
+--><section class="FANCY_pres simple nopadding"><h1 class="small-font">sixième onglet, so fancy</h1><div class="column simple nopadding"><!--
+
+--><div class="simple light">too young to be sad</div><!--
+
+--><qt class="style-italic">fck.wrd</qt><!--
+
+--><div>in periferia fa molto caldo, mamma stai tranquilla sto arrivando, te la prenderai per un bugiardo, ti sembrava amore ma era altro, beve champagne sotto ramadan alla tv danno jackie chan fuma narghilè mi chiede come va.</div><!--
+
+--><cv class="display-block simple small-font hi4 background center-align">c'était beau hier, c'était beau ce matin</cv><!--
+
+--><img src="https://i.pinimg.com/564x/48/54/8d/48548dadbd9a5bca6facc8f2f6665b8c.jpg" class="width-100 simple" style="height: 150px;"/><!--
+
+--><qt class="gensmall">DSTRB TH CMFRTBL.</qt><!--
+
+--><div class="hi3 background simple small style-italic small-font">et moi qui croyais que j'étais pas comme il fallait, qui fallait que je tire une croix.</div><!--
+
+--><div class="simple hi1">(ghostly, almost ethereal)</div><!--
+
+--><div class="simple light small-font">i dream you love me again</div><!--
+
+--><div><span>twenty øne piløts.</span> <ro>billie eilish.</ro> <i>troye sivan.</i> <cv>orange rex county.</cv> <span>billy raffoul.</span> <tag>mahmood.</tag> <i>alec benjamin.</i> <s>machine gun kelly.</s> <rou>renaud.</rou> <span>bilal hassani.</span> <dtag>anne-marie</dtag></div><!--
+
+--><div class="simple hi2 background">sans rire.</div><!--
+
+--><i class="display-block simple nopadding">just let me believe that you like what you're seein', when you're lookin' at me and your heartbeat is speedin' at seven hundred miles down highways to eden like my body's the apple you're eatin'</i><!--
+
+--><div class="simple dark right-align">j'savais pas.
+j'savais pas.
+j'savais pas.</div><!--
+
+--><qt><sms class="display-block right-align">charlie — tuesday, 2.28am</sms><sms>you're kind of nice.</sms></qt></div><!--
+
+
+FIN FANCY FLEXROW
+--></section>`
 }

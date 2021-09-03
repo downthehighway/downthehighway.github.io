@@ -1,5 +1,30 @@
 SLIDE9 = {
     "index" : 9,
     "name" : "statistiques",
-    "text" : `<div>9</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE STATISTIQUES - - - - -
+
+--><section class="JAUGES_pres"><linec><btag><rou>MEASURING YOUR LIFE</rou></btag><lgn class="da1"></lgn><lgn class="da1"></lgn></linec><div class="simple nopadding flex fixed"><div class="simple light right"><scroll><!--
+
+--><jauge>culture<barre style="--width: 75%;"></barre></jauge><!--
+--><jauge>intérêt familial<barre style="--width: 83%;"></barre></jauge><!--
+--><jauge>mode de vie urbain<barre style="--width: 90%;"></barre></jauge><!--
+--><jauge>sociabilité<barre style="--width: 50%;"></barre></jauge><!--
+--><jauge>réseaux sociaux<barre style="--width: 20%;"></barre></jauge><!--
+--><jauge>secrets<barre style="--width: 40%;"></barre></jauge><!--
+
+--></scroll></div><div class="simple light"><scroll><!--
+
+--><jauge>croyances<barre style="--width: 35%;"></barre></jauge><!--
+--><jauge>valeurs<barre style="--width: 75%;"></barre></jauge><!--
+--><jauge>ambition<barre style="--width: 35%;"></barre></jauge><!--
+--><jauge>marginalité<barre style="--width: 90%;"></barre></jauge><!--
+--><jauge>chances en amour<barre style="--width: 50%;"></barre></jauge><!--
+--><jauge>criminalité<barre style="--width: 5%;"></barre></jauge><!--
+--></scroll></div></div></section>`
 }

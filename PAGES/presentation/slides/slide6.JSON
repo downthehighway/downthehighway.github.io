@@ -1,5 +1,28 @@
 SLIDE6 = {
     "index" : 6,
     "name" : "timeline",
-    "text" : `<div>6</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE TIMELINE - - - - -
+
+--><section class="TIMELINE_pres simple nopadding"><linel><btag><rou>ON THE CLOCK</rou></btag><lgn class="da1"></lgn></linel><div class="simple light"><!--
+
+--><vh>(date)</vh><cv> — nom</cv>
+expliquer un peu.
+
+<vh>(date)</vh><cv> — nom</cv>
+expliquer un peu.
+
+<vh>(date)</vh><cv> — nom</cv>
+expliquer un peu.
+
+<vh>(date)</vh><cv> — nom</cv>
+expliquer un peu.
+
+<vh>(date)</vh><cv> — nom</cv>
+expliquer un peu.</div></section>`
 }

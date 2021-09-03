@@ -1,5 +1,15 @@
 SLIDE2 = {
     "index" : 2,
     "name" : "caractère",
-    "text" : `<div>2</div>`
+    "text" :
+`<!--
+
+
+
+
+- - - - - PARTIE CARACTERE - - - - -
+
+--><section class="CARACTERE_pres simple light"><linel><tag class="hi2 background">bitch mode activated</tag><lgn class="hi2"></lgn></linel><br/><!--
+
+-->Le caractère ici. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta nulla velit. Aliquam ut eros ex. Etiam varius varius mollis. Aenean porta luctus turpis a maximus. Integer volutpat dignissim dui, nec bibendum diam tincidunt ac. Aliquam et fringilla nulla. Nam mattis feugiat volutpat. Duis vel eros nisi. Mauris quis justo risus. Morbi ut risus et odio ullamcorper semper eu in eros. Mauris quis sapien gravida, volutpat nunc eget, laoreet diam. Donec sit amet leo sagittis orci sodales semper quis quis sapien.Vivamus ipsum tellus, dictum in purus sed, egestas varius dui. Proin arcu urna, semper a feugiat a, tincidunt eget turpis. Pellentesque ut tincidunt nibh. Curabitur viverra vehicula velit vitae molestie. Aenean quis fringilla risus. Nam finibus augue a velit molestie, ut convallis nisl convallis.</section>`
 }
