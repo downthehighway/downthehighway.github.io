@@ -21,7 +21,7 @@ const MAIN_TEMPLATE = `<h1>@prénom nom  <tag class="float right">pronoms</tag>
 
 --><div class="main_pres simple nopadding"><!--
 
---><section class="INTRODUCTION_pres simple nopadding flexrow fixed" style="--height: 250px;"><div class="simple small light avatar-inside"><img src="https://images2.imgbox.com/e8/86/EYPXjaJI_o.png"/></div><!--
+--><section class="INTRODUCTION_pres simple nopadding"><div class=" flexrow fixed" style="--height: 250px;"><div class="simple small light avatar-inside"><img src="https://images2.imgbox.com/e8/86/EYPXjaJI_o.png"/></div><!--
 
 
 --><div class="simple nopadding flexcolumn">
@@ -29,4 +29,29 @@ const MAIN_TEMPLATE = `<h1>@prénom nom  <tag class="float right">pronoms</tag>
 
 --><div class="simple light"><scroll><ch>identité</ch> écrire ici. <vh>âge, naissance</vh> écrire ici. <ch>nationalité, origines</ch> écrire ici. <vh>statut amoureux, orientation</vh> écrire ici. <ch>identité de genre, pronoms</ch> écrire ici. <vh>occupation [<u>$$</u>$$$]</vh> écrire ici. souligner le montant correspondant à la richesse de votre personnage. </scroll></div><!--
 
---><mg class="display-block simple light right-align no-extend">âge — métier — statut amoureux — <a href="#top" target="_blank">fiche</a> — <a href="#top" target="_blank">liens</a></mg></div></section></div>`;
+--><mg class="display-block simple light right-align no-extend">âge — métier — statut amoureux — <a href="#top" target="_blank">fiche</a> — <a href="#top" target="_blank">liens</a></mg></div></div></section></div>`;
+
+
+
+
+
+
+const normal_TEMPLATE = `<!--
+
+
+--><div class="simple light"><ro>prénom/pseudo</ro> écrire ici. <ro>crédits</ro> écrire ici. <ro>personnage</ro> pl, inventé ? écrire ici. <ro>tout sur l'artiste</ro> tu nous racontes ce que tu veux sur toi, en un mot, quelques lignes, un paragraphe ou une page entière, c'est toi l'artiste. </div>`;
+
+
+
+
+
+
+const ephemere_TEMPLATE = `<!--
+
+
+--><div class="simple light"><ro>prénom/pseudo</ro> écrire ici. <ro>crédits</ro> écrire ici. <ro>personnage</ro> pl, inventé ? écrire ici. au cas échéant, bien vérifier que l'auteur·e du pl est ok avec un éphémère. <ro>tout sur l'artiste</ro> tu nous racontes ce que tu veux sur toi, en un mot, quelques lignes, un paragraphe ou une page entière, c'est toi l'artiste. </div><!--
+
+--><div class="simple light"><ro>personnage éphémère</ro> écrire la date estimée de départ.
+<ro>pourquoi un éphémère ?</ro> expliquer ici.
+<ro>premier personnage sur le forum ? dc ?</ro> écrire ici.
+<ro>propositions de liens / rp</ro> écrire ici, facultatif. cela vous permettrait de mieux et plus rapidement lancer votre personnage.</div>`;

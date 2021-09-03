@@ -21,3 +21,17 @@
 .input_filec:checked + label {
     background: var(--h2) !important;
 }
+
+#textarea_result {
+    width: 100% !important;
+    height: 400px;
+}
+
+#div_flexrow > fill {
+    flex: 0 0 auto;
+    width: 230px;
+}
+
+#shown_result > *:first-child {
+    margin-top: 0;
+}

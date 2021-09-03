@@ -79,7 +79,7 @@
             Avant tout, veuillez indiquer le type de personnage que vous allez jouer :
         </div>
         <div class="simple nopadding flexrow">
-            <input type="radio" name="TYPE" id="type1" class="none input_filec type_filec">
+            <input type="radio" name="TYPE" id="type1" class="none input_filec type_filec" checked>
             <label for="type1" class="simple hi1 background crosshair">je vais jouer un personnage <cv>normal</cv></label>
 
             <input type="radio" name="TYPE" id="type2" class="none input_filec type_filec">
@@ -98,21 +98,25 @@
         </div>
 
         <div class="simple nopadding right-align">
-            <a id="uncheck_all">(tout déselectionner)</a> —
-            <a id="check_all">(tout selectionner)</a>
+            <a id="uncheck_all">(tout déselectionner)</a>
         </div>
         <lgn></lgn>
 
-        <a id="COMPOSE" class="display-block simple da4 background center-align"><rou>COMPOSER LA FICHE</rou></a>
+        <a id="COMPOSE" class="display-block unset simple hi4 background center-align"><rou class="da4">COMPOSER LA FICHE</rou></a>
 
-        <div id="warning" class="simple light">warning !</div>
+        <div id="warning" class="simple light none">warning !</div>
 
-        <section id="bp_result">
+        <section id="bp_result" class="none">
             <p id="p_result">hey</p>
 
             <textarea id="textarea_result" readonly class="simple small light">aaaa</textarea>
+            <br><br><br><br><br>
 
-            <section id="shown_result"></section>
+            <div class="simple nopadding flexrow" id="div_flexrow">
+                <fill></fill>
+                <section id="shown_result" class="simple light"></section>
+                <fill></fill>
+            </div>
         </section>
 
 
