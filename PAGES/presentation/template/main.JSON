@@ -1,0 +1,32 @@
+const MAIN_TEMPLATE = `<h1>@prénom nom  <tag class="float right">pronoms</tag></h1><!--
+!! INFO : ne mettez que les pronoms utilisés par votre personnage, de façon courte, vous pourrez développer ci-dessous
+
+
+--><section class="SQUAREGRID_pres simple nopadding flexrow heightsquaregrid"><!--
+
+--><div class="simple light big-line"><scroll class="toggle_inside" toggling=".main_pres" children="mg"><!--
+
+--><linel><mg class="dotted">carte d'identité</mg><lgn class="da1"></lgn></linel><!--
+--></scroll></div><!--
+
+
+--><div class="squaregrid no-extend"><!--
+--><img src="https://i.pinimg.com/564x/f2/bc/3e/f2bc3e24ce6e79047d03b46771951339.jpg"/><!--
+--><img src="https://i.pinimg.com/564x/55/10/4e/55104e54ff4825219194d9a901345792.jpg"/><!--
+--><img src="https://i.pinimg.com/564x/dd/7a/c6/dd7ac672f0838afaf4a9e7b9d4206b15.jpg"/><!--
+--><img src="https://i.pinimg.com/564x/e8/e4/ad/e8e4ad2b293d2981e4de810d45c34fe3.jpg"/></div></section><!--
+
+
+
+
+--><div class="main_pres simple nopadding"><!--
+
+--><section class="INTRODUCTION_pres simple nopadding flexrow fixed" style="--height: 250px;"><div class="simple small light avatar-inside"><img src="https://images2.imgbox.com/e8/86/EYPXjaJI_o.png"/></div><!--
+
+
+--><div class="simple nopadding flexcolumn">
+<liner class="no-extend"><btag class="hi1 background">ft. avatar</btag><lgn class="hi1"></lgn></liner><!--
+
+--><div class="simple light"><scroll><ch>identité</ch> écrire ici. <vh>âge, naissance</vh> écrire ici. <ch>nationalité, origines</ch> écrire ici. <vh>statut amoureux, orientation</vh> écrire ici. <ch>identité de genre, pronoms</ch> écrire ici. <vh>occupation [<u>$$</u>$$$]</vh> écrire ici. souligner le montant correspondant à la richesse de votre personnage. </scroll></div><!--
+
+--><mg class="display-block simple light right-align no-extend">âge — métier — statut amoureux — <a href="#top" target="_blank">fiche</a> — <a href="#top" target="_blank">liens</a></mg></div></section></div>`;

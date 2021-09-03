@@ -1,0 +1,138 @@
+<!DOCTYPE>
+<html>
+<head>
+
+    <title>Your title page</title>
+    <link rel="icon" href="https://img.icons8.com/small/16/000000/small-hearts.png">
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-type" />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mulish:wght@200&family=Oswald&family=Playfair+Display&family=Rozha+One&display=swap" rel="stylesheet">
+    <pal><p></p><p></p><p></p><p></p><p class="pp"></p><p></p><p class="pp"></p><p></p><p></p><p class="pp"></p><p></p><p></p><p></p><p></p></pal>
+
+
+
+
+    <!-------------------- CSS STYLE IMPORT -------------------->
+    <link href="../../CSS/FORUM.css" rel="stylesheet">
+    <link href="../../CSS/color.css" rel="stylesheet">
+    <link href="./pages.css" rel="stylesheet">
+
+    <!-------------------- SCRIPT IMPORT -------------------->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../../JS/TOP/header.js"></script>
+
+    <!-------------------- JSON IMPORT -------------------->
+    <script type="text/javascript" src="./slides/slide1.JSON"></script>
+    <script type="text/javascript" src="./slides/slide2.JSON"></script>
+    <script type="text/javascript" src="./slides/slide3.JSON"></script>
+    <script type="text/javascript" src="./slides/slide4.JSON"></script>
+    <script type="text/javascript" src="./slides/slide5.JSON"></script>
+    <script type="text/javascript" src="./slides/slide6.JSON"></script>
+    <script type="text/javascript" src="./slides/slide7.JSON"></script>
+    <script type="text/javascript" src="./slides/slide8.JSON"></script>
+    <script type="text/javascript" src="./slides/slide9.JSON"></script>
+    <script type="text/javascript" src="./slides/slide10.JSON"></script>
+    <script type="text/javascript" src="./slides/slide11.JSON"></script>
+
+    <script type="text/javascript" src="./template/main.JSON"></script>
+
+</head>
+
+<body>
+
+    <header class="flexrow">
+        <table class="no-extend img_table_header"><tr><td>
+            <div id="avatar_header">
+                <img src="https://images2.imgbox.com/52/2f/OcsK9TMQ_o.png">
+            </div>
+        </td></tr></table>
+
+        <table class="no-extend add_table_header"><tr><td>
+            <ro>create your file</ro>
+            <mg><a href="#top">see the preview</a></mg>
+            <mg><a href="#top">post your file</a></mg>
+            <mg><a href="#top">check the faceclaim</a></mg>
+            <mg><a href="#top">go back to the forum</a></mg>
+            <br>
+            <mg2>(c) codes :: poesiescendrees</mg2>
+        </td></tr></table>
+
+        <fill></fill>
+    </header>
+
+    <main id="wrap">
+
+    <!--<div class="color_picker flexrow">
+        <input type="color" id="inputColorPicker" value="#e0d1d1">
+        <div class="table_js"><label for="inputColorPicker" id="labelColorPicker">#e0d1d1</label></div>
+    </div>-->
+
+
+    <section id="bodylinewidth">
+        <h1>composer sa fiche</h1>
+
+        <qt>
+            Bonjour ! Vous pouvez aisément composer le code de votre fiche sur <cv>DOWN THE HIGHWAY</cv> en remplissant rapidement le questionnaire ci-dessous.<br>
+            Une fois le code composé, vous pourrez retourner sur le forum et poster votre fiche (en allant dans le sous-forum <cv>présentations</cv> ou en cliquant directement sur le deuxième lien de la barre de navigation ci-dessus).
+        </qt><br>
+
+        <div class="simple nopadding">
+            Avant tout, veuillez indiquer le type de personnage que vous allez jouer :
+        </div>
+        <div class="simple nopadding flexrow">
+            <input type="radio" name="TYPE" id="type1" class="none input_filec type_filec">
+            <label for="type1" class="simple hi1 background crosshair">je vais jouer un personnage <cv>normal</cv></label>
+
+            <input type="radio" name="TYPE" id="type2" class="none input_filec type_filec">
+            <label for="type2" class="simple hi1 background crosshair">je vais jouer un personnage <cv>éphémère</cv></label>
+        </div>
+
+        <lgn></lgn>
+
+        <div class="simple nopadding">
+            Ensuite, il ne vous reste plus qu'à cocher les onglets que vous désirez utiliser.<br>
+            N'oubliez pas que votre fiche doit se composer <ch>de 3 à 6 onglets</ch> !
+        </div>
+
+        <div class="simple nopadding flex" id="SLIDECHOICE">
+            <!-- rempli par JS -->
+        </div>
+
+        <div class="simple nopadding right-align">
+            <a id="uncheck_all">(tout déselectionner)</a> —
+            <a id="check_all">(tout selectionner)</a>
+        </div>
+        <lgn></lgn>
+
+        <a id="COMPOSE" class="display-block simple da4 background center-align"><rou>COMPOSER LA FICHE</rou></a>
+
+        <div id="warning" class="simple light">warning !</div>
+
+        <section id="bp_result">
+            <p id="p_result">hey</p>
+
+            <textarea id="textarea_result" readonly class="simple small light">aaaa</textarea>
+
+            <section id="shown_result"></section>
+        </section>
+
+
+
+    </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <!-------------------- SCRIPT IMPORT -------------------->
+    <script src="../../JS/BOTTOM/toggle_package.js"></script>
+    <script src="../../JS/BOTTOM/overall.js"></script>
+    <script src="../../JS/BOTTOM/color.js"></script>
+    <script src="./pages.js"></script>
+
+    <a name="bottom"></a>
+</body>
+</html>

@@ -1,0 +1,5 @@
+SLIDE2 = {
+    "index" : 2,
+    "name" : "caractère",
+    "text" : `<div>2</div>`
+}

@@ -1,0 +1,5 @@
+SLIDE10 = {
+    "index" : 10,
+    "name" : "souvenirs",
+    "text" : `<div>10</div>`
+}

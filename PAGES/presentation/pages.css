@@ -1,0 +1,23 @@
+/*- - - - - GENERAL - - - - -*/
+
+#wrap {
+    margin: var(--height-header) auto 300px;
+}
+
+
+
+
+
+/*- - - - - FILE COMPOSE - - - - -*/
+
+.bp_filec {
+
+}
+
+.input_filec + label:hover {
+    background: var(--h4) !important;
+}
+
+.input_filec:checked + label {
+    background: var(--h2) !important;
+}

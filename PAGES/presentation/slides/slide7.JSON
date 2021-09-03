@@ -1,0 +1,5 @@
+SLIDE7 = {
+    "index" : 7,
+    "name" : "popularité",
+    "text" : `<div>7</div>`
+}
